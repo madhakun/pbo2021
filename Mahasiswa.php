@@ -1,4 +1,3 @@
-<!-- praktikum 02 membuat objek dan class -->
 <?php
     class Mahasiswa
     {
@@ -11,7 +10,7 @@
 
         }
         public function tampilkanUmur(){
-            
+
         }
     }
 ?>
