@@ -1,5 +1,7 @@
 <?php
+    namespace application\backend;
     require_once("User.php");
+    
     class Pegawai extends User
     {
         protected $nip;
@@ -14,7 +16,8 @@
             $this->gaji_pokok = $gaji;
         }
 
-        public function tampilkanGaji(){
+        public function tampilkanGaji()
+        {
             echo "Jumlah Gaji : $this->gaji_pokok";
         }
 

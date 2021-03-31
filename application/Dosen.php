@@ -1,5 +1,8 @@
 <?php
+    namespace application\backend;
     require_once("Pegawai.php");
+    
+
     class Dosen extends Pegawai
     {
         protected $nidn;
@@ -15,10 +18,10 @@
         }
 
         public function mengajar(){
-
+            echo $this->nama . " sedang mengajar<br>";
         }
         public function meneliti(){
-
+            echo $this->nama . " sedang meneliti<br>";
         }
 
         // Getter
@@ -37,6 +40,16 @@
 
         public function setJabatanAkademis($jabatan){
             $this->jabatan_akademis = $jabatan;
+        }
+    }
+
+    namespace application\frontend;
+
+    class Dosen
+    {
+        public function ucapan()
+        {
+            echo "Terima Kasih";
         }
     }
 ?>

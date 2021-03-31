@@ -1,5 +1,7 @@
 <?php
+    namespace application\backend;
     require_once("User.php");
+    
     class Mahasiswa extends User
     {
         protected $nim;

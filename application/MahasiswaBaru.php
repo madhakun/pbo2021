@@ -1,5 +1,7 @@
 <?php 
+    namespace application\backend;
     require_once("Mahasiswa.php");
+    
     class MahasiswaBaru extends Mahasiswa
     {
         protected $no_registrasi;
@@ -13,7 +15,7 @@
         }
 
         public function bayarGedung(){
-            
+            echo "$this->username Anda Telah Membayar Gedung";
         }
 
         // Getter
