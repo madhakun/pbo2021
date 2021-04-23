@@ -1,5 +1,5 @@
 <?php
-    use application\backend\Mahasiswa;
+    namespace App;
     
     class Cetak 
     {

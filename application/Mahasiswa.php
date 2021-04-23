@@ -1,5 +1,5 @@
 <?php
-    namespace application\backend;
+    namespace App;
     require_once("User.php");
     
     class Mahasiswa extends User

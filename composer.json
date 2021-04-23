@@ -1,0 +1,16 @@
+{
+    "name": "ramadhan/oop",
+    "description": "Praktikum PBO",
+    "authors": [
+        {
+            "name": "Ramadhan",
+            "email": "madha@student.untan.ac.id"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\":"application"
+        }
+    }
+}

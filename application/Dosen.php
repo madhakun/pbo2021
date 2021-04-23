@@ -1,5 +1,5 @@
 <?php
-    namespace application\backend;
+    namespace App;
     require_once("Pegawai.php");
     
 
@@ -40,16 +40,6 @@
 
         public function setJabatanAkademis($jabatan){
             $this->jabatan_akademis = $jabatan;
-        }
-    }
-
-    namespace application\frontend;
-
-    class Dosen
-    {
-        public function ucapan()
-        {
-            echo "Terima Kasih";
         }
     }
 ?>
