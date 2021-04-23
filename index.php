@@ -25,7 +25,9 @@
         echo "<br>";
         $madha->tampilkanUmur(); 
         echo "<br>";
-        $madha->tampilkanAngkatan(); 
+        $madha->tampilkanAngkatan();
+        echo "<br>";
+        $madha->parentTampilAngkatan(); 
     ?>
 </body>
 

@@ -27,5 +27,15 @@
         public function setNoRegistrasi($no_reg){
             $this->no_registrasi = $no_reg;
         }
+
+        public function tampilkanAngkatan()
+        {
+            echo "Merupakan mahasiswa baru";
+        }
+
+        public function parentTampilAngkatan()
+        {
+            return parent::tampilkanAngkatan();
+        }
     }
 ?>
