@@ -37,5 +37,10 @@
         {
             return parent::tampilkanAngkatan();
         }
+
+        // public function tuntaskan()
+        // {
+        //     echo "bawa perbaikan";
+        // }
     }
-?>
+

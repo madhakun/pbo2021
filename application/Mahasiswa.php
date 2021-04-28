@@ -8,6 +8,9 @@
         protected $nama;
         protected $tanggal_lahir;
         protected $jenis_kelamin;
+        const AKTIF = 1;
+        const NON_AKTIF = 0;
+        public static $status = self::AKTIF;
 
         function __construct($nim, $nama, $tgl, $jk){
             $this->nim = $nim;
@@ -27,11 +30,22 @@
             echo $this->nama;
         }
 
+        public static function bergerak()
+        {
+            echo "agen solusi, bukan agen perubahan";
+        }
+
+        final public function tuntaskan()
+        {
+            self::bergerak();
+            echo "\nMemperbaiki menjadi lebih baik";
+        }
+
         // Getter
         public function getNim(){
             return $this->nim;
         }
-
+        
         public function getNama(){
             return $this->nama;
         }
@@ -59,6 +73,11 @@
 
         public function setJenisKelamin($jk){
             $this->jenis_kelamin = $jk;
+        }
+
+        public static function hitungSks($sks, $bobot)
+        {
+            return $sks * $bobot;
         }
     }
 ?>

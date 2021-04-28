@@ -5,7 +5,7 @@
     {
         public function penanggalan()
         {
-            return "Ini tanggal";
+            return "\nIni tanggal";
         }
     }
 ?>

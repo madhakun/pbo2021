@@ -1,7 +1,7 @@
 <?php
-    require_once("initialize.php");
-    use application\backend\Mahasiswa;
-    use application\backend\MahasiswaBaru;
+    require_once("vendor/autoload.php");
+    use App\Mahasiswa;
+    use App\MahasiswaBaru;
 
     $madha = new MahasiswaBaru("H1101201035", "Ramadhan", "2001-12-08", "Laki-Laki", 8008);
     $harry = new Mahasiswa("H1101191040", "Harry Anshary", "2001-03-31", "Laki-Laki");
